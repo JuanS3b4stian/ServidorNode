@@ -1,3 +1,4 @@
+// Método correcto de conexión a la base de datos, sin exponer nuestras credenciales
 import mongoose from 'mongoose'; 
  
 const conectarDB = async () => { 
